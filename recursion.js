@@ -36,3 +36,15 @@ function isPalindrome(str){
     if(str[0] == str.slice(-1)) return isPalindrome(str.slice(1,-1))
     return false;
 }
+
+//순수 재귀
+function collectOddNum(arr){
+    let newArr = [];
+    
+    if(arr.length == 0) return arr;
+    if(arr[0] % 2 !== 0) newArr.push(arr[0]);
+
+    newArr = newArr.concat(collectOddNum(arr.slice(1)))
+
+    return newArr;
+}

@@ -1,3 +1,5 @@
+//패턴 찾기, 횟수 반환
+
 function naiveSearch(long, patt){
     let count = 0;
     for(let i = 0; i < long.length; i++){
