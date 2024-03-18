@@ -80,4 +80,4 @@ ER.enqueue("common cold", 1);
 ER.enqueue("gunshot wound", 5);
 ER.enqueue("high fever", 2);
 
-//enqueue 순서와 상관없이 dequeue 하면서 순서 정렬됨.
+//enqueue 순서와 상관없이 dequeue를 통해 순서 정렬됨.
